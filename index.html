@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather forecast</title>
     <link rel="stylesheet" href="style.css">
@@ -24,10 +25,14 @@
                     </path>
                 </svg>
             </button>
+            <button onclick="location.href='location.html'"><i class="fa fa-map-marker" aria-hidden="true"
+                    style="font-size:1.5em;"></i></button>
+
         </div>
         <div class="weather loading">
             <h2 class="city">Weather in Kolkata </h2>
-            <h1 class="temp">50°C</h1>
+            <p class="location">In </p>
+            <h1 class="temp"></h1>
             <div class="flex">
                 <img src="https://openweathermap.org/img/wn/50n.png" alt="" class="icon">
                 <div class="description">Cloudy</div>

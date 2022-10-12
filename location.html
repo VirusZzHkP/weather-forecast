@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div style="text-align: left ;">
+            <button onclick="location.href='index.html'"><i class="fa fa-search" aria-hidden="true"
+                    style="font-size:1.5em;"></i></button>Search Instead?
+
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Kolkata </h2>
+            <p class="location">In </p>
+            <h1 class="temp"></h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/50n.png" alt="" class="icon">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind Speed: 6.2km/h</div>
+        </div>
+    </div>
+</body>
+
+</html>
