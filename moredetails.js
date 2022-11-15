@@ -1,5 +1,5 @@
 const currentDetails =
-  "https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=31411a93b4034e57610ea4fbf182aeb4";
+  "https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=YOUR API KEY GOES HERE";
 const currTime = document.querySelector("#time");
 const ampm = document.getElementById("#ampm");
 const searchBar = document.querySelector("#searchbar");
@@ -34,7 +34,7 @@ darkBtn.addEventListener("click", () => {
 });
 
 var limit = 5;
-var APIkey = "31411a93b4034e57610ea4fbf182aeb4";
+var APIkey = "YOUR API KEY GOES HERE";
 navigator.geolocation.getCurrentPosition((position) => {
   var lat = position.coords.latitude;
   var lon = position.coords.longitude;
