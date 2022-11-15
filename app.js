@@ -1,5 +1,5 @@
 // API KEY
-const key = "YOUR-API-KEY-GOES-HERE";
+const key = "31411a93b4034e57610ea4fbf182aeb4";
 
 // CHECK IF BROWSER SUPPORTS GEOLOCATION
 if ("geolocation" in navigator) {
