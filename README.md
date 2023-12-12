@@ -10,8 +10,6 @@ I've used the <a href="https://openweathermap.org/" style="text-decoration: none
 
 Also, you will notice that the background image will change according to the place you search for;for that, I've used <a href="https://unsplash.com/"><b>Unsplash</b></a>.
 <br>---------------------------------------------------------------------------------------------------------------------------------<br>
-<a href="http://weatherforecasthkp.epizy.com/">Click here for Demo ☁️🌡️</a> <br> The demo might not work properly as the hosted server doesn't allow it properly, so I'd recommend running it on your localhost.
-<br>---------------------------------------------------------------------------------------------------------------------------------<br>
 
 ### Few Screenshots 🎴
 ---
